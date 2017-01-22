@@ -9,4 +9,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y autoconf automake bash bis
                     p7zip-full
 RUN apt-get clean
 RUN git clone https://github.com/mxe/mxe.git
-RUN cd mxe && make -j2
+RUN cd mxe && make -j2 qtserialport
